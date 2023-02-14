@@ -17,6 +17,15 @@ A grammar G is an order of quadruple G = {Vt, Vn, P, S}, where:
 -S is a starting symbol.
 
 ---
+## Objectives:
+Purpose: to study the notion of languages,grammar and finite automaton.
+
+Tasks to do:\
+-Create class for Grammar;\
+-Add function to generate 5 strings;\
+-Convert grammar to Finite Automaton;\
+-Check if the strings are vakid.
+
 
 ## Implementation:
 I wrote this laboratory work in Java programming language.  There are to classes whicjh implements the main logic (Grammar and FiniteAutomata) and App class used to call necessary methods. First of all, I identifyed grammar in Grammar class (method setGrammar()), then I convert the set of all possible productions into three arrays to seperate productions for every single non-terminal symbol. It is necessary because when we generate a string we have to identify somehow non-ternimal symbol and pick the corresponding production for this symbol. In the method generateString() I check for the corresponding non-terminal symbol and check if the last symbol is terminal, if it so, I stop execution:
@@ -42,3 +51,7 @@ Class FiniteAutomaton contains method which provides the validation of a string,
 I, also, have to mention that productions are picked randomly to generate the strings. but sometimes we can have same string generated several times.
 
 ![](Images/Screenshot%20from%202023-02-14%2021-21-31.png)
+
+## Conclusion:
+
+Each language is identifyed by its grammar which comtains from set of terminal characters, set of non-terminal characters, set of possible productions and initial state. Finite automaton is a directed weighted graph which represents the allowed transitions from previous to the next state. Finite automaton has three forms of representation : analitycal, table (matrix) representation, graphical representation.
