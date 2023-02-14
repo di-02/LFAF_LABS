@@ -37,8 +37,8 @@ Class FiniteAutomaton contains method which provides the validation of a string,
 ![](Images/Screenshot%20from%202023-02-14%2020-57-21.png)
 ---
 ## Output of the program:
----
 ![](Images/Screenshot%20from%202023-02-14%2021-19-07.png)
 
 I, also, have to mention that productions are picked randomly to generate the strings. but sometimes we can have same string generated several times.
+
 ![](Images/Screenshot%20from%202023-02-14%2021-21-31.png)
